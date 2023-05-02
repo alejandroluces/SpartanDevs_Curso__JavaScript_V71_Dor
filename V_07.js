@@ -47,3 +47,4 @@ switch(evaluación){
         case 4:
         console.log(`${num} es par`); 
     }
+    /* Sintaxis múltiple en cadena // Investigar */
