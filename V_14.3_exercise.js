@@ -1,7 +1,7 @@
 
 
 // Solicitar un número X al usuario
-const numero = prompt("Ingrese un número:");
+let numero = prompt("Ingrese un número:");
 
 // Iterar desde 1 hasta el número ingresado por el usuario
 for (let i = 1; i <= numero; i++) {
