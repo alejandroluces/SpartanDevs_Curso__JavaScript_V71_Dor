@@ -1,6 +1,3 @@
-
-const nombre= document.getElementById("nombre")
-const edad= document.getElementById("edad")
 let a=prompt("Introduzca su nombre");
 let b=prompt("Introduzca su edad");
 
