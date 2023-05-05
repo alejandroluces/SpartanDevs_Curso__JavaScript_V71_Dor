@@ -8,6 +8,6 @@ for (let i = 1; i <= numero; i++) {
 
   const parOImpar = i % 2 === 0 ? "par" : "impar";//valida si es par o impar (operador ternario)
   console.log(`${i}   es ${parOImpar}`); // Imprimir el resultado
-  
+
 }
 
