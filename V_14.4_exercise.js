@@ -1,7 +1,7 @@
 
 
     // Solicitar un número al usuario
-const numero = prompt("Ingrese un número:");
+let numero = prompt("Ingrese un número:");
 
 let esPrimo = true;
 
@@ -17,7 +17,7 @@ if (numero <= 1) {
 }
 
 // Imprimir el resultado
-const resultado = esPrimo ? "Es primo" : "No es primo";
+let resultado = esPrimo ? "Es primo" : "No es primo";
 console.log(`El número ${numero}  ${resultado}.`);
 
 
