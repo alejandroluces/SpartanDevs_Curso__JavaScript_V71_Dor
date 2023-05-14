@@ -74,6 +74,5 @@ const numbers7 = [-12, 2, 3, 23, 43, 2, 3]
 console.log(Math.max(...numbers7));
 console.log(Math.min(...numbers7));
 
-
 // Eliminar elemento duplicados
 console.log([...new Set(numbers7)]);
