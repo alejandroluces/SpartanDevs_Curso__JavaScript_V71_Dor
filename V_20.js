@@ -117,9 +117,12 @@ while(books.length<3){
                 year.length==4 && 
                     (gender== "Aventura" || 
                         gender== "Terror" ||
-                            gender== "Fantasia"))
+                            gender== "Fantasia")){
+
+                            
 
         books.push(new Book(title,author,year,gender))
+    }
                                 
 }
 
@@ -129,12 +132,12 @@ const showAllBooks=() =>{
 }
 
 const showAuthor=()=>{
-    let author=[];
+    let authors=[]
     
     for (const book of books){
-        author.push(book.getAuthor());
+        authors.push(book.getAuthor());
     }
-    console.log(author.sort());
+    console.log(authors.sort());
 }
 
 const showGender =()=>{
@@ -148,8 +151,8 @@ const showGender =()=>{
     
 }
 
-showAllBooks()
-showAuthor()
+// showAllBooks()
+// showAuthors()
 showGender()
 
 
