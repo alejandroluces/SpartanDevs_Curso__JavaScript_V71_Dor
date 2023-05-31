@@ -40,11 +40,11 @@ const getUser=async(id)=>{
 }
 
 const getInfo= async(id)=>{
-    try{
+    try {
         const user= await getUser(id)
         const res= await getEmail(user)
         return `${user.name} email es ${res.email}`
-    } catch (error){
+    } catch (error) {
         console.log(error); 
     }
 }
