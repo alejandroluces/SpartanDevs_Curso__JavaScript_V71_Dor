@@ -1,0 +1,15 @@
+{
+  "name": "spartandevs_curso__javascript_v71_dor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "execise_22_05.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
