@@ -46,8 +46,10 @@ const printPerson=({name:nombre})=>{
 printPerson(person)
 */
 
-const getUsers = async ()=>{
-    const {data:users}= await axios.get("https://jsonplaceholder.typicode.com/users")
-    console.log(users.data)
+const getUsers = async () => {
+    const { data: users } = await axios.get('https://jsonplaceholder.typicode.com/users')
+
+    console.log(users)
 }
+
 getUsers()
